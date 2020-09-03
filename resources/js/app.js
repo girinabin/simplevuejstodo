@@ -7,8 +7,7 @@
 require('./bootstrap');
 
 window.Vue = require('vue');
-import Form from './form'
-window.Form = Form;
+
 
 /**
  * The following block of code may be used to automatically register your
@@ -21,7 +20,7 @@ window.Form = Form;
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('todo-component', require('./components/TodoComponent.vue').default);
+// Vue.component('todo-component', require('./components/TodoComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
