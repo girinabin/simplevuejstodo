@@ -10904,11 +10904,3 @@ a.text-dark:focus {
   }
 }
 
-body {
-  border: 2px solid black;
-  height: 100vh;
-  width: 100vw;
-  background: #8a5c70;
-  background: radial-gradient(circle, #8a5c70 14%, #94bbe9 100%);
-}
-
